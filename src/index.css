@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* .movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-wrapper {
+  display: flex;
+  gap: 1rem;
+  width: 650px;
+  margin: 1rem;
+  background-color: #7a7a73;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.title-wrapper {
+  display: flex;
+  gap: 1rem;
+} */
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem;
+}
+
+input {
+  width: 50px;
+}
