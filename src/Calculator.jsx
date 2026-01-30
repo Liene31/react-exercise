@@ -2,8 +2,8 @@ import { useState } from "react";
 
 export const Calculator = () => {
   const [userInput, setUserInput] = useState({
-    number1: 0,
-    number2: 0,
+    number1: "",
+    number2: "",
     operation: "plus",
   });
 
@@ -46,8 +46,8 @@ export const Calculator = () => {
     });
 
     setUserInput({
-      number1: 0,
-      number2: 0,
+      number1: "",
+      number2: "",
       operation: "plus",
     });
   }
