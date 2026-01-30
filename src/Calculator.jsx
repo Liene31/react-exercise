@@ -12,7 +12,6 @@ export const Calculator = () => {
   function handleField(e) {
     const name = e.target.name;
     const type = e.target.type;
-    console.log(name, type);
 
     setUserInput((prev) => {
       const newUserInput = {
@@ -85,6 +84,7 @@ export const Calculator = () => {
         <button>Calculate</button>
       </form>
       <div className="total-field">{total}</div>
+      {/* todo : afficher dans un input text readonly */}
     </div>
   );
 };
