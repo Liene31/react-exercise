@@ -17,6 +17,7 @@ export const Counter = (props) => {
   }, []);
 
   //setting values to localStorage
+  //using counter in array, since that's the value which is changing
   useEffect(() => {
     localStorage.setItem(name, JSON.stringify(counter));
   }, [counter]);
