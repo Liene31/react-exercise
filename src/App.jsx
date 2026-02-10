@@ -2,6 +2,7 @@ import { Calculator } from "./Calculator.jsx";
 import { filmData } from "./data.js";
 import { Movie } from "./Movie.jsx";
 import { Project } from "./Project.jsx";
+import { Radio } from "./Radio.jsx";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     //   })}
     // </div>
     // <Calculator />
-    <Project />
+    // <Project />
+    <Radio />
   );
 }
 
